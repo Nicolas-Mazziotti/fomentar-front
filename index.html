@@ -26,6 +26,10 @@
         
         <div class="container-fluid main-container-registracion mt-4 mb-3">
           <div class="col-md-5 mx-auto">
+            <div class="text-end">
+                <button class="btn-cargados"> Total cargados</button>
+            </div>
+            
               <form id="form-registracion">
                   <h4>Componentes del hogar</h4>
                   <hr>
@@ -39,13 +43,13 @@
                   </div>
 
                   <div class="mb-2">
-                    <label for="provincia" class="form-label">Sexo</label>
-                    <select class="form-select form-control" aria-label="Default select example" name="provincia" id="input-provincia">
+                    <label for="sexo" class="form-label">Sexo</label>
+                    <select class="form-select form-control" aria-label="Default select example" name="sexo" id="input-sexo">
                         <option selected>Desplegar opciones</option>
                             <option value="1">Masculino</option>
                             <option value="2">Femenino</option>
                       </select>
-                      <span class="visually-hidden" id="notificacion-provincia">Elige una opcion válida</span>
+                      <span class="visually-hidden" id="notificacion-sexo">Elige una opcion válida</span>
                 </div>
 
                 <div class="mb-2">
@@ -54,8 +58,8 @@
                     <span class="visually-hidden" id="notificacion-nacimiento">Escribe una fecha válida</span>
                 </div>
                 <div class="mb-2">
-                    <label for="provincia" class="form-label">Parentesco con jefe/a</label>
-                    <select class="form-select form-control" aria-label="Default select example" name="provincia" id="input-provincia">
+                    <label for="parentesco" class="form-label">Parentesco con jefe/a</label>
+                    <select class="form-select form-control" aria-label="Default select example" name="parentesco" id="input-parentesco">
                         <option selected>Desplegar opciones</option>
                             <option value="1">Jefe/a</option>
                             <option value="2">Cónyuge/pareja</option>
@@ -73,7 +77,7 @@
                             <option value="2">Otro/a no familiar</option>
 
                       </select>
-                      <span class="visually-hidden" id="notificacion-provincia">Elige una opcion válida</span>
+                      <span class="visually-hidden" id="notificacion-parentesco">Elige una opcion válida</span>
                 </div>
                 <div class="mb-2">
                     <label for="provincia" class="form-label">Actualmente es</label>

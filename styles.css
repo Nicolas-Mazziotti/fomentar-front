@@ -109,6 +109,25 @@
     background-color:  #2e7d33;
 }
 
+.btn-cargados{
+    min-width: 100px;
+    border: 3px solid rgba(0,0,0,0);
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    padding: 8px 20px;
+    text-transform: inherit;
+    vertical-align: top;
+    white-space: normal;
+    word-break: initial;
+    text-decoration: none;
+    letter-spacing: inherit;
+    border-radius: 30px;
+    line-height: 1.42857143;
+    background-color:  #2e7d33;
+    color: #fff;
+}
+
 
 /*REGISTRACION*/
 
