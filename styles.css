@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Encode Sans',Arial, sans-serif;;
+}
+
+/* INDEX */
+/* Header */
+
+.navbar-container{
+    background-color: #37bbed;
+}
+
+.btn-inicio{
+    border: 3px solid rgba(0,0,0,0);
+    background-color: #fff;
+    border-radius: 30px;
+    font-size: 16px;
+    color: #0072bb;
+    text-decoration: none;
+    padding: 8px 15px;
+    font-weight: 600;
+    
+}
+
+.btn-inicio:hover{
+    color: black;
+}
+
+/*Main*/
+
+.header-container{
+    height: calc(100vh - 236px)
+}
+
+.main-container h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+/*Footer*/
+.footer-container{
+    background-color: #37bbed;
+    height: 150px;
+}
+
+.img-footer{
+    margin-top: 2rem;
+}
+
+
+/*LOGIN*/
+/* HEADER */
+
+.main-container .form-control{
+    border-color:none;
+}
+
+.main-container .form-label{
+    color: #707070;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 1.5rem;
+
+}
+
+.btn-agregar{
+    border: 3px solid rgba(0,0,0,0);
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    padding: 8px 20px;
+    text-transform: inherit;
+    vertical-align: top;
+    white-space: normal;
+    word-break: initial;
+    text-decoration: none;
+    letter-spacing: inherit;
+    border-radius: 30px;
+    line-height: 1.42857143;
+    background-color:  #2e7d33;
+    color: #fff;
+}
+
+.btn-agregar:hover{
+    background-color: #306634;
+}
+
+.btn-confirmar{
+    border: 3px solid rgba(0,0,0,0);
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    padding: 8px 20px;
+    text-transform: inherit;
+    vertical-align: top;
+    white-space: normal;
+    word-break: initial;
+    text-decoration: none;
+    letter-spacing: inherit;
+    border-radius: 30px;
+    line-height: 1.42857143;
+    background-color:  #244b27;
+    color: #fff;
+}
+
+.btn-confirmar:hover{
+    background-color:  #2e7d33;
+}
+
+
+/*REGISTRACION*/
+
+
+
+.main-container-registracion h4{
+        font-size: 1.5rem;
+        font-weight: 700;
+}
+
+.main-container-registracion .form-label{
+    color: #7c7b7b;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 1.5rem;
+}
+
+.main-container-registracion .form-control {
+    border-color:rgb(112, 110, 110) ;
+}
+
+.main-container-registracion textarea {
+    resize: none;
+}
+
+#form-registracion label {
+    color: rgb(87, 82, 82);
+}
+
+
+/*Clases para los input en validación*/
+
+.main-container-registracion span{
+    font-size: 15px;
+    color: red;
+}
