@@ -11,7 +11,6 @@ let expresiones = {
     // sexo: /^[ a-zA-ZñÑáéíóúÁÉÍÓÚ]{1,50}$/,
     // cuit: /^[0-9]{11}$/, //Regex solo 11 numeros
     fecha: /\d{4}-\d{2}-\d{2}/,// Formate fecha dd/mm/aaaa
-    // : /^[ a-zA-ZñÑáéíóúÁÉÍÓÚ0-9]+$/,
 }
 
 //Funcion para validar el Formulario 

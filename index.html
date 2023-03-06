@@ -25,104 +25,104 @@
         <!--MAIN-->
         
         <div class="container-fluid main-container-registracion mt-4 mb-3">
-          <div class="col-md-5 mx-auto">
-            <div class="text-end">
-                <button class="btn-cargados"> Total cargados</button>
-            </div>
-            
-              <form id="form-registracion">
-                  <h4>Componentes del hogar</h4>
-                  <hr>
-                  <h5>Número de Componente <span>1</span></h5>
-                  <hr>
-                  <p>Por favor completá estos datos del componente 1 para continuar.</p>
-                  <div class="mb-1">
-                      <label for="nombre" class="form-label">Nombre o Sobrenombre</label>
-                      <input type="text" class="form-control" name="nombre" id="input-nombre"required>
-                       <span class="visually-hidden" id="notificacion-nombre">Escribe un nombre valido solo letras</span> 
+            <div class="col-md-5 mx-auto">
+              <div class="text-end">
+                  <button class="btn-cargados"> Total cargados</button>
+              </div>
+              
+                <div id="form-registracion">
+                    <h4>Componentes del hogar</h4>
+                    <hr>
+                    <h5>Número de Componente <span>1</span></h5>
+                    <hr>
+                    <p>Por favor completá estos datos del componente 1 para continuar.</p>
+                    <div class="mb-1">
+                        <label for="nombre" class="form-label">Nombre o Sobrenombre</label>
+                        <input type="text" class="form-control" name="nombre" id="input-nombre"required>
+                         <span class="invisible" id="notificacion-nombre">Escribe un nombre valido solo letras</span> 
+                    </div>
+  
+                    <div class="mb-2">
+                      <label for="sexo" class="form-label">Sexo</label>
+                      <select class="form-select form-control" aria-label="Default select example" name="sexo" id="input-sexo">
+                          <option selected>Desplegar opciones</option>
+                              <option value="1">Masculino</option>
+                              <option value="2">Femenino</option>
+                        </select>
+                        <span class="invisible" id="notificacion-sexo">Elige una opcion válida</span>
                   </div>
-
+  
                   <div class="mb-2">
-                    <label for="sexo" class="form-label">Sexo</label>
-                    <select class="form-select form-control" aria-label="Default select example" name="sexo" id="input-sexo">
-                        <option selected>Desplegar opciones</option>
-                            <option value="1">Masculino</option>
-                            <option value="2">Femenino</option>
-                      </select>
-                      <span class="visually-hidden" id="notificacion-sexo">Elige una opcion válida</span>
-                </div>
-
-                <div class="mb-2">
-                    <label for="nacimiento" class="form-label">Fecha de Nacimiento</label>
-                    <input type="date" class="form-control" name="nacimiento" id="input-nacimiento" >
-                    <span class="visually-hidden" id="notificacion-nacimiento">Escribe una fecha válida</span>
-                </div>
-                <div class="mb-2">
-                    <label for="parentesco" class="form-label">Parentesco con jefe/a</label>
-                    <select class="form-select form-control" aria-label="Default select example" name="parentesco" id="input-parentesco">
-                        <option selected>Desplegar opciones</option>
-                            <option value="1">Jefe/a</option>
-                            <option value="2">Cónyuge/pareja</option>
-                            <option value="2">Hijo/a</option>
-                            <option value="2">Hijastro/a</option>
-                            <option value="2">Yerno o nuera</option>
-                            <option value="2">Nieto/a</option>
-                            <option value="2">Padre/madre/suegro/a</option>
-                            <option value="2">Hermano/a</option>
-                            <option value="2">Cuñado/a</option>
-                            <option value="2">Sobrino/a</option>
-                            <option value="2">Abuelo/a</option>
-                            <option value="2">Otro/a familiar</option>
-                            <option value="2">Servicio doméstico y sus familiares</option>
-                            <option value="2">Otro/a no familiar</option>
-
-                      </select>
-                      <span class="visually-hidden" id="notificacion-parentesco">Elige una opcion válida</span>
-                </div>
-                <div class="mb-2">
-                    <label for="provincia" class="form-label">Actualmente es</label>
-                    <select class="form-select form-control" aria-label="Default select example" name="provincia" id="input-provincia">
-                        <option selected>Desplegar opciones</option>
-                            <option value="1">Unido/a</option>
-                            <option value="2">Casado/a</option>
-                            <option value="2">Separado/a de unión</option>
-                            <option value="2">Viudo/a de unión</option>
-                            <option value="2">Separado/a de matrimonio</option>
-                            <option value="2">Viudo/a de matrimonio</option>
-                            <option value="2">Soltero/a, nunca casado/a ni unido/a</option>
-                      </select>
-                      <span class="visually-hidden" id="notificacion-provincia">Elige una opcion válida</span>
-                </div>
-
-                  <div class="mb-5">
-                      <label for="organismo" class="form-label">Quienes son el padre y la madre</label>
-                      <div class="d-flex gap-2">
-                        <input type="text" class="form-control" name="organismo" id="input-organismo" placeholder="Padre">
-                      <input type="text" class="form-control" name="" id="" placeholder="Madre">
-                      </div>
-                      
-                      <span class="visually-hidden" id="notificacion-organismo">Escribe un organismo válido</span>
+                      <label for="nacimiento" class="form-label">Fecha de Nacimiento</label>
+                      <input type="date" class="form-control" name="nacimiento" id="input-nacimiento" >
+                      <span class="invisible" id="notificacion-nacimiento">Escribe una fecha válida</span>
                   </div>
-                  <div class="just">
-                    <button type="submit" class="m-auto btn-agregar">Agregar Componente</button>
-                    <button type="submit" class="m-auto btn-confirmar">Confirmar</button>
+                  <div class="mb-2">
+                      <label for="parentesco" class="form-label">Parentesco con jefe/a</label>
+                      <select class="form-select form-control" aria-label="Default select example" name="parentesco" id="input-parentesco">
+                          <option selected>Desplegar opciones</option>
+                              <option value="1">Jefe/a</option>
+                              <option value="2">Cónyuge/pareja</option>
+                              <option value="3">Hijo/a</option>
+                              <option value="4">Hijastro/a</option>
+                              <option value="5">Yerno o nuera</option>
+                              <option value="6">Nieto/a</option>
+                              <option value="7">Padre/madre/suegro/a</option>
+                              <option value="8">Hermano/a</option>
+                              <option value="9">Cuñado/a</option>
+                              <option value="10">Sobrino/a</option>
+                              <option value="11">Abuelo/a</option>
+                              <option value="12">Otro/a familiar</option>
+                              <option value="13">Servicio doméstico y sus familiares</option>
+                              <option value="14">Otro/a no familiar</option>
+  
+                        </select>
+                        <span class="invisible" id="notificacion-parentesco">Elige una opcion válida</span>
                   </div>
-
-
-                  <p class="text-success" id="registracion"></p>
-          </div>
-          </form>
-      </div>
-      <div class="container-fluid">
-          <div class="col-md-5 mx-auto">
-              <hr>
-          </div>
-      </div>
-      <div class="container-fluid">
-          <div class="col-md-5 mx-auto d-flex row">
-              <a href="../index.html">Volver al inicio</a>
-          </div>
-      </div>
+                  <div class="mb-2">
+                      <label for="provincia" class="form-label">Actualmente es</label>
+                      <select class="form-select form-control" aria-label="Default select example" name="provincia" id="input-provincia">
+                          <option selected>Desplegar opciones</option>
+                              <option value="1">Unido/a</option>
+                              <option value="2">Casado/a</option>
+                              <option value="2">Separado/a de unión</option>
+                              <option value="2">Viudo/a de unión</option>
+                              <option value="2">Separado/a de matrimonio</option>
+                              <option value="2">Viudo/a de matrimonio</option>
+                              <option value="2">Soltero/a, nunca casado/a ni unido/a</option>
+                        </select>
+                        <span class="invisible" id="notificacion-provincia">Elige una opcion válida</span>
+                  </div>
+  
+                    <div class="mb-5">
+                        <label for="organismo" class="form-label">Quienes son el padre y la madre</label>
+                        <div class="d-flex gap-2">
+                          <input type="text" class="form-control" name="organismo" id="input-organismo" placeholder="Padre">
+                        <input type="text" class="form-control" name="" id="" placeholder="Madre">
+                        </div>
+                        
+                        <span class="invisible" id="notificacion-organismo">Escribe un organismo válido</span>
+                    </div>
+                    <div class="just">
+                      <button type="submit" class="m-auto btn-agregar">Agregar Componente</button>
+                      <button type="submit" class="m-auto btn-confirmar">Confirmar</button>
+                    </div>
+  
+  
+                    <p class="text-success" id="registracion"></p>
+            </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="col-md-5 mx-auto">
+                <hr>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="col-md-5 mx-auto d-flex row">
+                <a href="../index.html">Volver al inicio</a>
+            </div>
+        </div>
   
 
         <!--FOOTER-->
