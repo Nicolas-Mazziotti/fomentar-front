@@ -133,34 +133,34 @@
 
 
 
-.main-container-registracion h4{
+.main-container-componente h4{
         font-size: 1.5rem;
         font-weight: 700;
 }
 
-.main-container-registracion .form-label{
+.main-container-componente .form-label{
     color: #7c7b7b;
     font-weight: 600;
     font-size: 14px;
     margin-top: 1.5rem;
 }
 
-.main-container-registracion .form-control {
+.main-container-componente .form-control {
     border-color:rgb(112, 110, 110) ;
 }
 
-.main-container-registracion textarea {
+.main-container-componente textarea {
     resize: none;
 }
 
-#form-registracion label {
+#form-componente label {
     color: rgb(87, 82, 82);
 }
 
 
 /*Clases para los input en validación*/
 
-.main-container-registracion span{
+.main-container-componente span{
     font-size: 15px;
     color: red;
 }
